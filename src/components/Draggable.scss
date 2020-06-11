@@ -1,0 +1,26 @@
+$baseMargin: 5px;
+$dateFontSize: 10px;
+$displayNameColor: #a59f9f;
+
+.twitter-container {
+  .twitter-date {
+    float: right;
+    font-size: $dateFontSize;
+  }
+  .twitter-image {
+    display: inline-block;
+  }
+  .twitter-name,
+  .twitter-sname {
+    display: inline-block;
+    margin: 0 $baseMargin;
+    vertical-align: top;
+  }
+  .twitter-sname {
+    color: $displayNameColor;
+  }
+  .twitter-tweet {
+    margin: 0 $baseMargin 0;
+    word-break: break-word;
+  }
+}

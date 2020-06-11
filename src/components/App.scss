@@ -1,0 +1,22 @@
+$pillarWidth: 50%;
+$pillarMargin: 0 10px;
+$centerTextHeight: 100%;
+
+.twitter-save-wrapper {
+  .drag-container {
+    display: flex;
+    justify-content: space-evenly;
+    .drag-pillar {
+      display: flex;
+      flex-direction: column;
+      width: $pillarWidth;
+      margin: $pillarMargin;
+      .center-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: $centerTextHeight;
+      }
+    }
+  }
+}
